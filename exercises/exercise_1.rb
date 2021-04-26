@@ -18,13 +18,15 @@ puts "----------"
   store2.mens_apparel = true
   store2.womens_apparel = true
   store2.save
-
+ 
   store3 = Store.new
   store3.name = "Gastown"
   store3.annual_revenue = 300000
   store3.mens_apparel = true
   store3.womens_apparel = true
   store3.save
+
+  
  
 
 puts "***********************"
