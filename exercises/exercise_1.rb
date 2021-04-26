@@ -4,14 +4,7 @@ puts "Exercise 1"
 puts "----------"
 
 # Your code goes below here ...
-require_relative '../setup'
 
-puts "Exercise 1"
-puts "----------"
-
-# Your code goes below here ...
-
-class Store < ActiveRecord::Base
   store1 = Store.new
   store1.name = "Burnaby"
   store1.annual_revenue = 300000
@@ -33,7 +26,7 @@ class Store < ActiveRecord::Base
   store3.womens_apparel = true
   store3.save
  
-end
+
 puts "***********************"
 
 puts Store.count
